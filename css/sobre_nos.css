@@ -1,0 +1,215 @@
+body{
+	display: grid;
+
+	}#fundoL{
+	width: all;
+    height: all;
+    background-image: url('../img/fundos/gradient.jpg');
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Incio Historia*/
+.hist{
+	background-image: url("../img/fundos/fundoHist.jpeg");
+    background-size: cover;
+    background-position: center;
+	color:white;
+	font-size: 45px;
+	text-align: center; 
+	height: auto;
+
+}
+.hist h2{
+	margin-top: 30px;
+
+}
+.hist .fonte{
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 20px;
+	color:black;
+	padding: 30px;
+	margin-top: 5%;
+	margin-bottom:  10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 45px;
+	text-align: center; 
+/*Fim Historia*/
+
+}
+/*Inicio card*/
+.estrutura{
+	display: inline-flex; 
+	text-align: center;
+	margin-top:140px;
+	margin-bottom: 110px;}
+
+.estrutura .base{
+	background-color: white;
+	width: 30%;
+	margin: auto;
+	height: 100%;
+  	padding: 10px;
+  	border-radius: 10px;}
+
+.base .icon{
+	margin-top: 8px;
+    display: inline-block;
+    border: 3px solid white;
+  	border-radius: 10px;
+    box-shadow: 0 0 2px 2px #610000;
+    overflow: hidden;
+   	position: relative;
+   	background: #8e0000;
+   	margin-bottom: 3%;}
+
+.base .icon img{
+    width: 8vw;
+    height: 8vw;}
+
+.base .title{
+	font-size: 20px;
+	font-weight:  bold;}
+
+.base hr{
+	margin-top: 3%;
+	margin-bottom: 3%;}
+/*Fim Cards*/
+
+
+/*Inicio Plano*/
+
+
+.plan{
+	display: inline-flex; 
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 10px;
+	height: 110%;
+
+}
+
+.plan .base{
+	background-color: white;
+	background: rgba(255, 255, 255, 0.4);
+	width: 30%;
+	margin: auto;
+	height: 100%;
+  	padding: 10px;
+	border-width: 15px;
+  	border-style: solid;
+  	border-color: #610000;
+  	padding: 10px;
+  	border-radius: 10px;
+
+
+/*  	box-shadow: all;*/
+
+}
+
+.plan .base .title{
+	margin-top: 30px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #610000;
+}
+
+.plan .base .sub-title{
+	margin-top: 12px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #610000;
+	line-height: 20px;
+	font-weight: bolder;
+}
+
+.plan .base p{
+		margin-top: 15px;
+ 	 	font-size: 23px;
+		color: #610000;}
+
+ .plan .base .btn{
+ 	display: block;
+ 	text-align: center;
+ 	margin: 10px 0;}
+
+.plan .base .btn button{
+
+	background: #610000;
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	padding: 5px 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;}
+
+.plan .base .btn button:hover{
+	transform: scale(0.9);}
+
+
+@media (max-width: 650px){
+										
+.estrutura{											
+	text-align: center;																			
+	display:inline; }
+
+.estrutura .base{																	
+	text-align: center;																		
+	background-color: white;											
+	height: auto;						
+	margin: auto;											
+	margin-bottom: 10%;			
+  	padding: 10px;											
+  	border-radius: 10px;
+  	width: 90%}											
+									
+.estrutura .base .icon{
+	margin-top: 8px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 20%;
+    box-shadow: 0 0 2px 2px #610000;
+    overflow: hidden;
+   	position: relative;
+   	background: #8e0000;
+   	margin-bottom: 3%;
+    z-index: 1;}
+
+
+
+
+
+.hist{
+	background-image: url("../img/fundos/fundoHist.jpeg");
+    background-size: cover;
+    background-position: bottom; 
+    background-position: top;
+	color:white;
+	text-align: center; 
+	height: auto;}
+
+h2{
+	padding-top: 25%;
+	font-size: 110%;
+
+
+}
+
+.hist .fonte{
+		background-color: rgba(255, 255, 255, 0.8);
+	color:black;
+	margin-top: 20%;
+	margin-bottom: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-size: 50%;
+	text-align: center; 
+}
+
+}

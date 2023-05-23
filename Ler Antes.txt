@@ -1,0 +1,4 @@
+O Cadastro de usuarios e feito apartir de quando já se está dento do sistema, no caso o dev daria o login para o usuario deixei embaixo um login para entrar.
+
+Usuario:	teste
+Senha:		teste

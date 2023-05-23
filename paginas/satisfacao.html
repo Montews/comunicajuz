@@ -1,0 +1,116 @@
+  <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Comunica Juz</title>
+		<link rel="shortcut icon"  href="../img/alt/logoo.ico">
+		<link rel="stylesheet" href="../css/menu.css">
+		<link rel="stylesheet" href="../css/satisfacao.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+	
+	<body id="fundoL">
+
+		<section class="logo">
+			<img src="../img/alt/logo.png" height="130px" >
+		</section>
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="cadastro.html">Cadastro</a></li>
+				<li><a href="relatorio.php">Análise</a></li>	
+				<li><a href="usuario.html">Adicionar Usuario</a></li>
+				<li><a href="satisfacao.html">Satisfação</a></li>	
+			</ul>
+		</nav>
+
+		
+		<div class="top">Formulário de Satisfação do Cliente</div>
+
+
+			<form class="forms" action="../php/verForm.php" method="POST">
+
+				<div class="base">
+					<div class="title">Suas Informações</div><br>
+					<label class="label">Qual seu nome?</label><br/>
+						<input type="text" class="per" name="pergunta1" required><br/>
+
+					<label class="label"s>Qual seu estado?</label><br/>
+						<select class="per" name="pergunta2" required>
+						    <option value="">Selecione</option>
+						    <option value="AC">Acre</option>
+						    <option value="AL">Alagoas</option>
+						    <option value="AP">Amapá</option>
+						    <option value="AM">Amazonas</option>
+						    <option value="BA">Bahia</option>
+						    <option value="CE">Ceará</option>
+						    <option value="DF">Distrito Federal</option>
+						    <option value="ES">Espirito Santo</option>
+						    <option value="GO">Goiás</option>
+						    <option value="MA">Maranhão</option>
+						    <option value="MS">Mato Grosso do Sul</option>
+						    <option value="MT">Mato Grosso</option>
+						    <option value="MG">Minas Gerais</option>
+						    <option value="PA">Pará</option>
+						    <option value="PB">Paraíba</option>
+						    <option value="PR">Paraná</option>
+						    <option value="PE">Pernambuco</option>
+						    <option value="PI">Piauí</option>
+						    <option value="RJ">Rio de Janeiro</option>
+						    <option value="RN">Rio Grande do Norte</option>
+						    <option value="RS" selected>Rio Grande do Sul </option>
+						    <option value="RO">Rondônia</option>
+						    <option value="RR">Roraima</option>
+						    <option value="SC">Santa Catarina</option>
+						    <option value="SP">São Paulo</option>
+						    <option value="SE">Sergipe</option>
+						    <option value="TO">Tocantins</option>
+						</select><br/>
+
+					<label class="label">Qual a sua área de atuação</label><br/>
+						<input type="text"class="per" name="pergunta3" required><br/>
+
+					<label class="label">Há  quanto tempo você exerce a sua função?</label><br/>
+						<input type="number" class="per" name="pergunta4" required><br/>
+
+					<label class="label">Você tem familiaridade com a tecnologia?</label><br/>
+						<select name="pergunta5" class="per" required>
+							<option value="">Escolha uma opção</option>
+							<option value="Sim">Sim</option>
+							<option value="Mais ou Menos">Mais ou Menos</option>
+							<option value="Não">Não</option>
+						</select>
+
+					<div class="title">Sobre a Plataforma</div>
+
+					<label class="label">Você usa a nossa plataforma há quanto tempo?</label><br/>
+						<select class="per" name="pergunta6" required>
+							<option value="">Escolha uma opção</option>
+							<option value="Mais de um ano">Mais de um ano</option>
+							<option value="Mais de seis meses">Mais de seis meses</option>
+							<option value="Mais de três meses">Mais de três meses</option>
+							<option value="Menos de um mês">Menos de um mês</option>
+						</select><br/>
+
+					<label class="label">O quanto você diria que nosso sistema mudou seu estilo de trabalho?</label><br/>
+						<input type="text" class="per" name="pergunta7" required><br/>
+
+					<label class="label">O que o noso sistema mudou no seu estilo de trabalho?</label><br/>
+						<textarea type="text" class="per" name="pergunta8" required></textarea><br/>
+
+					<label class="label">Como você conheceu nossa empresa?</label><br/>
+						<input type="text" class="per" name="pergunta9" required><br/>
+
+					<label class="label">Deixe um relato do que poderiamos mudar no nosso sistema?</label><br/>
+						<textarea  type="text" class="per" name="pergunta10" required></textarea><br/>
+
+					<input type="submit" value="Concluir"  name="Cadastrar" >
+				</div>
+			</form>
+	</body>
+</html> 

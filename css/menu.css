@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: Times New Roman;
+	display: grid;
+	height: 100%;
+
+	text-align: top;
+	background-repeat: no-repeat;
+
+}
+
+
+body {
+	font-family: Arial;
+	display: grid;
+	height: 100%;
+	text-align: top;
+	background-repeat: no-repeat;
+
+}
+
+.logo{
+	position: absolute;
+	right:520;
+	height: 00px;
+	top: 21100;
+	margin-left: 20px;
+	margin-top: -18px;}
+
+nav{
+	background: white;
+	height: 80px;
+	width: 100%;}
+
+nav ul{
+	z-index: 10;
+	float: right;
+	margin-right: 30px;}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 3px;}
+
+nav ul li a {
+	background: #9e0808;
+	color: white;
+	font-size: 20px;
+	padding: 7px 20px;
+	border-radius: 10px;
+	text-transform: uppercase;}
+
+
+nav ul li .btnLog {
+	background: white;
+	color: #9e0808;
+	font-size: 20px;
+	padding: 7px 20px;
+	border:solid  3px;
+	border-radius: 10px;
+	text-transform: uppercase;}
+
+a.active, a:hover{
+	background: white;
+	color: #9e0808;
+	transition: .5s;
+	animation: running;}
+
+	.btnLog:hover, .btnLog.active {
+	background: #9e0808;
+	color: white;
+	border:solid #9e0808 3px;}			
+
+.checkbtn{
+	font-size: 30px;
+	color: #9e0808;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;}
+
+#check{
+	display: none;}
+
+
+@media (max-width: 950px){
+	.checkbtn{
+		display: block;}
+
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;}
+
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;}
+
+	nav ul li a {
+		font-size: 20px;}
+
+	a:hover, a.active {
+		background: none;
+		color: white;}
+
+	.btnLog:hover, .btnLog.active {
+	background: #9e0808;
+	color: white;}		
+
+	#check:checked ~ ul {
+		left: 0;}
+}
+
+
+
+@media(max-width: 400px){
+
+	.logo img{
+    position: absolute;
+    max-height: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 15px;}
+
+    .checkbtn {
+        display: block;}
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;}
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;}
+    nav ul li a {
+        font-size: 20px;}
+    a:hover, a.active {
+        background: none;
+        color: white;}
+
+    #check:checked ~ ul {
+    	left: 0;}
+}

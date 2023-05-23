@@ -1,0 +1,104 @@
+#fundoL{
+	width: all;
+    height: all;
+    background-image: url('../img/fundos/gradient.jpg');
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.top{
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	padding: 25px  ;
+	background: #800000;
+	text-align: center;
+	margin-bottom: 3%;}
+
+.forms{
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+
+	width: 50vh;
+}
+
+.title{
+	padding-top:5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-style: bold;
+	font-size:180%;}
+
+
+	.forms{
+		background-color: rgba(0, 0, 0, 0.1);
+		text-align: center;
+		border-radius: 10px;
+		width: 50%;}
+
+	.dist, .larg, input[type=submit] {
+		width: 100%;
+		margin-top: 0;}
+
+
+
+	.label{
+		margin-bottom:12px;
+	 	width: 50%;
+	 	padding: 8px;
+	 	border-radius: 10px;
+		font-size: 120%;}
+
+	input{
+		top: 20px;
+	  	width: 70%;
+	  	padding: 5px;
+	  	margin-bottom: 5%;
+	  	border: 0.5px solid gray;
+	  	border-radius: 10px;
+		font-size: 100%;}
+
+	select{
+		top: 20px;
+	  	width: 50%;
+	  	padding: 5px;
+	  	margin-bottom: 5%;
+	  	border: 0.5px solid gray;
+	  	border-radius: 10px;
+		font-size: 100%;}
+
+textarea{
+	min-width: 80%;
+	min-height: 10%;
+	max-width: 80%;	  	
+	border-radius: 10px 10px 0px 10px;
+	max-height: 50vh;
+	font-size: 130%;
+	margin-bottom: 5%;
+}
+
+
+	input[type=submit] {
+	  background-color: #8f0013;
+	  color: white;
+	  width: 30%;
+	  padding: 10px 20px;
+	  border: none;
+	  margin-bottom: 15%;}
+
+input[type=submit]:hover {
+	background: #00cf03;
+	transition: 1.5s;}
+																		/*responsividade cadastro Cadastro*/
+@media screen and (max-width: 600px) {
+																	/*Fim responsividade cadastro Rel*/
+
+	.forms{
+		background-color: rgba(0, 0, 0, 0.1);
+		text-align: center;
+		border-radius: 10px;
+		width: 90%;}
+}
+
+}

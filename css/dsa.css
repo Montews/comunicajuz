@@ -1,0 +1,121 @@
+#fundoP{
+	width: all;
+    height: all;
+    background-image: url('../img/fundos/fundoP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.plan{
+	display: flex; 
+	text-align: center;
+	max-width: 1000px;
+	height: 500px;
+	overflow: 500px;
+	margin-top:79px;
+	margin-left: 7%;
+	margin-bottom: 10px;}
+
+.plan .card{
+	text-align: center;
+	max-width: 1000px;
+	height: 500px;
+	overflow: 500px;
+	margin-top:79px;
+	margin-left: 7%;
+	margin-bottom: 10px; 
+	flex: 1;
+	margin: 0 10px 25px;
+	border-width: 15px;
+  	border-style: solid;
+  	border-color: #610000;
+  	padding: 10px;
+  	border-radius: 10px;}
+
+.plan .card .content{
+	padding: :10px 20px;}
+
+.card .content .title{
+	margin-top: 30px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #610000;}
+
+.card .content .sub-title{
+	margin-top: 12px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #610000;
+	line-height: 20px;
+	font-weight: bolder;}
+ 
+ .card .content p{
+ 		margin-top: 15px;
+ 	 	font-size: 23px;
+		color: #610000;}
+
+ .card .content .btn{
+ 	display: block;
+ 	text-align: center;
+ 	margin: 10px 0;}
+
+.card .content .btn button{
+
+	background: #610000;
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	padding: 5px 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;}
+
+.card .content .btn button:hover{
+	transform: scale(0.9);}
+
+
+@media (max-width: 858px){
+	.plan{
+		text-align: center;
+		max-width: 1000px;
+		height: 500px;
+		overflow: 500px;
+		display:inline;  
+		margin-top:90px;
+		margin-left: 150px;
+		margin-bottom: 10px; 
+	}
+
+
+	.car{
+		text-align: center;
+		max-width: 800px;
+		height: 500px;
+		overflow: 500px;
+		display: inline; 
+		margin-top:79px;
+		margin-left: 18%;
+		margin-bottom: 10px; 
+	}
+
+	.card .content .btn button{
+		background: #610000;
+		color: white;
+		margin-bottom: 50px;
+		border: none;
+		outline: none;
+		font-size: 28px;
+		padding: 5px 40px;
+		border-radius: 10px;
+		transition: 0.2s;
+	}
+	.slogan1{
+	    display: center;
+	    color: #9e0808;
+	    font-weight: bold;
+	    right: 20px;
+	    position: center;
+	    background-image: url(#);
+	    background-color: transparent;
+	    text-align: center;}
+}

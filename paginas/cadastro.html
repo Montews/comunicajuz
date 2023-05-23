@@ -1,0 +1,175 @@
+  <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Comunica Juz</title>
+		<link rel="shortcut icon"  href="../img/alt/logoo.ico">
+		<link rel="stylesheet" href="../css/menu.css">
+		<link rel="stylesheet" href="../css/cadastro.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+	
+	<body id="fundoL">
+
+		<section class="logo">
+			<img src="../img/alt/logo.png" height="130px" >
+		</section>
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="cadastro.html">Cadastro</a></li>
+				<li><a href="relatorio.php">Análise</a></li>	
+				<li><a href="usuario.html">Adicionar Usuario</a></li>
+				<li><a href="satisfacao.html">Satisfação</a></li>	
+			</ul>
+		</nav>
+
+		
+		<div class="top">Cadastro</div>
+<div class="centrali">
+<div class="container">
+
+			<form class="forms" action="../php/verPainel.php" method="POST">
+				<div class="title">Informações do Cliente</div><br>
+
+					<div class="esp">
+						<div class="dist">
+							<label class="label"> Nome do Cliente </label><br/>
+						</div>
+					</div>
+					<div class="larg">
+						<input type="text" name="cliente" required>
+					</div>
+	
+					<div class="esp">
+						<div class="dist">
+						
+							<label class="label">Whatsapp</label><br/>
+						</div>
+					</div>
+					<div class="larg">
+						<input type="tel" name="whats" required>
+					</div>
+					<div class="esp">
+						<div class="dist">
+							<hr class="align">
+							<label class="label">Email cliente</label><br/>
+						</div>
+					</div>
+						<div class="larg">
+						<input type="email" name="emailC" required>
+						</div>		
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label">Escolha o tipo:</label> 
+							</div>
+						</div>
+
+						<div class="larg">
+						<input type="radio" id="juridica" name="pessoa" value="juridica" required>
+						<c>Pessoa Juridica</c>
+				
+						<input type="radio" id="fisica" name="pessoa" value="fisica" required>
+						<c>Pessoa Fisica</c>
+						
+						</div>
+
+						<div class="esp">
+							<div class="dist">
+								<hr class="align">
+								<label class="label">CPF ou CNPJ</label><br/>
+							</div>
+						</div>
+						<div class="larg">
+							<input type="number" name="cpfnpj" required>
+						</div>
+		<br><div class="title">Informações do Advogado</div></br>
+
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label"s>Nome do Advogado</label><br/>
+							</div>
+						</div>
+						<div class="larg">
+							<input type="text" name="advogado" required>
+						</div>
+
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label">Email do Advogado</label><br/>
+							</div>
+						</div>
+						<div class="larg">
+							<input type="email" name="emailA" required>
+						</div>
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label">OAB:</label><br/>
+							</div>
+						</div>
+						<div class="larg">
+							<input type="number" name="oab" required>
+						</div>
+		<br><div class="title">Informações do Processo</div></br>			
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label">Inicio do processo</label><br/>
+							</div>
+						</div>
+						<div class="larg">
+							<input type="date" name="data" required>
+						</div>	
+
+
+
+						<div class="esp">
+							<div class="dist">
+								<label class="label">Numero do processo</label>
+						</div>
+						<div class="larg">
+							<input type="text" name="nProcesso" maxlength="20" required>
+						</div>	
+
+						<!--<div class="esp">
+							<div class="dist">					
+								<label class="label">Documento(opcional):</label>
+							</div>
+						</div>
+						<div class="larg">
+
+						<input type="file" name="doc" >
+						<br><br></br>
+						</div>-->
+
+
+						<div class="esp">
+							<div class="dist">					
+								<label class="label"> </label>
+							</div>
+						</div>
+
+
+
+
+<div class="larg">
+
+
+	
+				<input  type="submit" value="Cadastrar"  name="Cadastrar" >
+							</div>		
+			</form>
+		</div></div>
+		</div>
+
+	</body>
+</html> 
